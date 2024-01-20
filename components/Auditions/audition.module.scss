@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "canopee";
-  src: url(/fonts/Canopee-Regular.ttf);
+  font-family: "bebas";
+  src: url(../../public/fonts/Wolves.otf);
 }
 
 @font-face {
@@ -22,6 +22,7 @@
 }
 .line {
   animation: fadeIn 3s;
+  font-family: 'bebas';
 }
 
 .modalWrapper {
@@ -48,7 +49,7 @@
   z-index: 1000000;
   h1 {
     font-size: clamp(40px, 5vw, 100px);
-    font-family: "canopee";
+    font-family: "bebas";
     margin: 0;
   }
   .modalActions {
@@ -121,6 +122,7 @@
     height: 100vh;
     min-height: -webkit-fill-available;
   }
+  
   100% {
     opacity: 1;
   }
@@ -179,10 +181,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'bebas';
 }
 
 .section1 {
-  font-family: "canopee";
+  font-family: "bebas";
   background-color: #fff;
   flex-direction: column;
   width: auto;
@@ -257,7 +260,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    font-family: "canopee";
+    font-family: "bebas";
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -325,6 +328,7 @@
     display: flex;
     width: 100vw;
     justify-content: space-around;
+    font-family: 'bebas';
   }
   z-index: 1000;
 }
@@ -566,6 +570,7 @@
   height: 300vh;
   position: relative;
   .line {
+    font-family:'bebas';
     position: absolute;
     top: 50vh;
     left: 50vw;

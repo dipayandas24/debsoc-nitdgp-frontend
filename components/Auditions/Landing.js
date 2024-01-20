@@ -164,7 +164,7 @@ function Section2() {
             <div className={styles.imageGalleryRow}>
               <WhyDSCard
                 src={group.src}
-                text="Always n forever The Debsoc Fam"
+                text="Always and forever The Debsoc Fam"
                 rotate={{ x: ratio > 1 ? 15 * (ratio - 1) : 15, y: 15 }}
               />
               <WhyDSCard
@@ -176,7 +176,7 @@ function Section2() {
             <div className={styles.imageGalleryRow}>
               <WhyDSCard
                 src={all.src}
-                text="Voice your Thoughts n Opinions"
+                text="Voice your Thoughts and Opinions"
                 rotate={{ x: ratio > 1 ? -15 * (ratio - 1) : -15, y: 15 }}
               />
               <WhyDSCard
@@ -237,15 +237,16 @@ export default function AuditionLanding({ onLogin }) {
   return (
     <div className={`${styles.container} ${styles.fixed}`}>
       <div className={`${styles.section} ${styles.section1} ${styles.centred}`}>
-        <h1>AUDITIONS</h1>
-        <h1>2023</h1>
+        <h1>Auditions</h1>
+        <h1>2024</h1>
         <p className={styles.line}>
           Let not the anchor restrict your sail. Let not prejudice restrict your
           thought. Let not fear restrict your speech.
         </p>
-        <p className={styles.line}>
+        <Button onClick={onLogin}>Register Now!</Button>
+        {/* <p className={styles.line}>
           Sorry, we are no longer accepting audition registrations.
-        </p>
+        </p> */}
       </div>
       <Section2 />
       <Section3 />
